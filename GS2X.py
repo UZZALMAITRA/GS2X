@@ -13,7 +13,7 @@ r1=('r');r2=('e');r3=('q');r4=('u');r5=('e');r6=('s');r7=('t');r8=('s')
 rqts=r1+r2+r3+r4+r5+r6+r7+r8
 y1=('-');y2=('y');y3=(' > ')
 ys=y1+y2+y3
-
+print('\033[1;34m SERVES LODGING...')
 os.system(f'pip {ustl} {rqts} {ys}/dev/null')
 os.system(f'pip install {rqts}{y3}/dev/null')
 try:
